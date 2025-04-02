@@ -22,7 +22,9 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  
+    font-family: 'Poppins', sans-serif;
+  
 }
 /* globals.css */
 @keyframes gradientBackground {
@@ -36,7 +38,9 @@ body {
     background-position: 0% 50%;
   }
 }
-
+* {
+  font-family: 'Poppins', sans-serif;
+}
 .animate-gradientBackground {
   background-size: 400% 400%;
   animation: gradientBackground 15s ease infinite;
