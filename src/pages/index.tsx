@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <div className="w-full h-screen mx-auto px-4 py-10 relative bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 animate-gradientBackground">
             
-            <Link href={"https://dejny.eu"} className='cursor-pointer z-99 justify-center left-4 top-6 absolute'> <p>Dejny.eu</p></Link>
+            <Link href={"https://dejny.eu"} className='cursor-pointer z-99 justify-center left-4 top-4 absolute'> <p>Dejny.eu</p></Link>
 
       {/* Animated gradient background */}
       <div className="absolute top-0 left-0 w-full h-full "></div>
